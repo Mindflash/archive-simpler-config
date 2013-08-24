@@ -13,9 +13,9 @@ npm install simpler-config
  
 ```javascript
 // use a JSON file
-var config = require('simpler-config')._init(require('./config/config.json'));
+var config = require('simpler-config')._init(require('./config.json'));
 // or a JS file (don't forget module.exports)
-var config = require('simpler-config')._init(require('./config/config.js'));
+var config = require('simpler-config')._init(require('./config.js'));
 // or an object
 var config = require('simpler-config')._init({someKey: 'Some Value'}));
 // or something far too fancy
