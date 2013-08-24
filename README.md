@@ -31,5 +31,9 @@ var config = require('simpler-config');
 console.log(config.someKey); // etc
 ```
 
-### License
-You're kidding right?
+## License
+
+[The MIT License](http://opensource.org/licenses/MIT)
+
+Copyright (c) 2013 Max Nachlinger
+
