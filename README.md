@@ -2,7 +2,7 @@
 
 A simple config module. You _init() it once with an object and require and use it everywhere else.
 
-[![Build Status](https://travis-ci.org/maxnachlinger/simple-config.png?branch=master)](https://travis-ci.org/maxnachlinger/simple-config)
+[![Build Status](https://travis-ci.org/maxnachlinger/simpler-config.png?branch=master)](https://travis-ci.org/maxnachlinger/simpler-config)
 
 ### Installation:
 ```
