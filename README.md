@@ -12,18 +12,16 @@ npm install simpler-config
  _init() takes an object, so there are loads of ways to call it
  
 ```javascript
+// use a JSON file
+var config = require('simpler-config')._init(require('./config/config.json'));
+// or a JS file (don't forget module.exports)
 var config = require('simpler-config')._init(require('./config/config.js'));
-// OR
+// or an object
 var config = require('simpler-config')._init({someKey: 'Some Value'}));
-// OR
-var fs = require('fs');
-var config = require('simpler-config')._init(
-	JSON.parse(fs.readFileSync(__dirname + '/config.json'))
-);
-// OR
+// or something far too fancy
 var config = require('simpler-config')._init({
-	dev: require('./dev.js')
-	qa: require('./qa.js')
+	dev: require('./dev.json')
+	qa: require('./qa.json')
 }[process.env.name]);
 
 // meanwhile, in another file in a directory far far away

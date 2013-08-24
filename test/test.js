@@ -10,14 +10,10 @@ test('Handles a simple object as a config', function (t) {
 });
 
 test('Handles a loaded and parsed JSON object as a config', function (t) {
-	fs.readFile(__dirname + '/config.json', function (err, json) {
-		t.notOk(err);
-		var config = require('../')._init(JSON.parse(json));
-
-		t.equal(config.name, 'test', 'config: '+util.inspect(config));
-		t.deepEqual(config.complexKey.aKey, [{"type": "test"}]);
-		t.end();
-	});
+	var config = require('../')._init(require('./config.json'));
+	t.equal(config.name, 'test', 'config: '+util.inspect(config));
+	t.deepEqual(config.complexKey.aKey, [{"type": "test"}]);
+	t.end();
 });
 
 test('Handles a loaded JS object as a config', function (t) {
