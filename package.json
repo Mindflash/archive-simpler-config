@@ -1,0 +1,35 @@
+{
+	"author": "Max Nachlinger <max.nachlinger@gmail.com>",
+	"name": "simple-config",
+	"description": "A really simple config library for nodejs",
+	"homepage": "https://github.com/maxnachlinger/simple-config",
+	"repository": {
+		"url": "https://github.com/maxnachlinger/simple-config.git",
+		"type": "git"
+	},
+	"keywords": [
+		"config"
+	],
+	"version": "0.0.1",
+	"bugs": {
+		"url": "https://github.com/maxnachlinger/simple-config/issues"
+	},
+	"licenses": {
+		"type": "MIT"
+	},
+	"scripts": {
+		"test": "tap test/test.js"
+	},
+	"main": "lib/",
+	"dependencies": {},
+	"devDependencies": {
+		"tap": "~0.4.0"
+	},
+	"optionalDependencies": {},
+	"engines": {
+		"node": "*"
+	},
+	"publishConfig": {
+		"registry": "https://registry.npmjs.com/"
+	}
+}

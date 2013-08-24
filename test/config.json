@@ -1,0 +1,10 @@
+{
+	"name": "test",
+	"complexKey": {
+		"aKey": [
+			{
+				"type": "test"
+			}
+		]
+	}
+}
