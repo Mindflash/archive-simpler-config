@@ -1,10 +1,10 @@
 {
 	"author": "Max Nachlinger <max.nachlinger@gmail.com>",
-	"name": "simple-config",
+	"name": "simpler-config",
 	"description": "A really simple config library for nodejs",
-	"homepage": "https://github.com/maxnachlinger/simple-config",
+	"homepage": "https://github.com/maxnachlinger/simpler-config",
 	"repository": {
-		"url": "https://github.com/maxnachlinger/simple-config.git",
+		"url": "https://github.com/maxnachlinger/simpler-config.git",
 		"type": "git"
 	},
 	"keywords": [
@@ -12,7 +12,7 @@
 	],
 	"version": "0.0.1",
 	"bugs": {
-		"url": "https://github.com/maxnachlinger/simple-config/issues"
+		"url": "https://github.com/maxnachlinger/simpler-config/issues"
 	},
 	"licenses": {
 		"type": "MIT"
