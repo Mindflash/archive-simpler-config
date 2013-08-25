@@ -1,4 +1,3 @@
-var fs = require('fs');
 var util = require('util');
 var test = require('tap').test;
 
