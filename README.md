@@ -1,6 +1,6 @@
 #simpler-config
 
-A simple config module. You _init() it once with an object and require and use it everywhere else.
+A simple config module. You `_init({})` it once with an object and `require('simpler-config')` everywhere else.
 
 [![Build Status](https://travis-ci.org/maxnachlinger/simpler-config.png?branch=master)](https://travis-ci.org/maxnachlinger/simpler-config)
 
@@ -10,9 +10,10 @@ npm install simpler-config
 ```
 
 ### What this library solves:
-You can always `require()` a JS or JSON file and use that for configuration, in fact for smaller projects, you probably _should_ do that. 
-On larger projects, however, requiring a config file everywhere is cumbersome. This silly library allows you to setup your
-config once, and then simply `require('simpler-config')` everywhere else in your project to get configuration info.
+You can always `require()` a JS or JSON file and use that for configuration, in fact for smaller projects, you probably 
+_should_ do that. On larger projects, however, requiring a config file everywhere is cumbersome. This silly library 
+allows you to setup your config once, and then simply `require('simpler-config')` everywhere else in your project to 
+get configuration info.
 
 ### Usage:
 
