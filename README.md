@@ -8,13 +8,6 @@ A simple config module. You `_init({})` it once with an object and `require('sim
 ```
 npm install simpler-config
 ```
-
-### What this library solves:
-You can always `require()` a JS or JSON file and use that for configuration, in fact for smaller projects, you probably 
-_should_ do that. On larger projects, however, requiring a config file everywhere is cumbersome. This silly library 
-allows you to setup your config once, and then simply `require('simpler-config')` everywhere else in your project to 
-get configuration info.
-
 ### Usage:
 
 ```javascript
@@ -35,6 +28,11 @@ var config = require('simpler-config')._init({
 var config = require('simpler-config'); // no need for a path etc
 console.log(config.someKey); 
 ```
+### Why
+For smaller node projects, it's reasonable to simply `require('./config/config.json')` (or a JS file) and use that 
+for configuration. On larger projects, however, requiring a config file everywhere is cumbersome for you have to 
+constantly tinker with the `require()` paths adding and/or removing `../`'s etc. Designed to avoid this annoyance, 
+this library enables you to setup your config once and then simply `require('simpler-config')` everywhere else. 
 
 ## License
 
