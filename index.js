@@ -1,7 +1,7 @@
 "use strict";
-var _init = function(config) {
+var load = function(config) {
 	module.exports = config;
-	module.exports._init = _init;
+	module.exports.load = load;
 	return config;
 };
-module.exports._init = _init;
+module.exports.load = load;

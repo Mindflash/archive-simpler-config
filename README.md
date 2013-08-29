@@ -1,6 +1,6 @@
 #simpler-config
 
-A simple config module. You `_init()` it once with a config object and simply `require('simpler-config')` everywhere 
+A simple config module. You `load()` it once with a config object and simply `require('simpler-config')` everywhere
 else to get configuration.
 
 [![Build Status](https://travis-ci.org/maxnachlinger/simpler-config.png?branch=master)](https://travis-ci.org/maxnachlinger/simpler-config)
@@ -12,18 +12,18 @@ npm install simpler-config
 ### A few examples:
 
 ```javascript
-// require the library and then call _init once with an object to setup your config.
+// require the library and then call load once with an object to setup your config.
 // You can use a JSON file
-var config = require('simpler-config')._init(require('./config.json'));
+var config = require('simpler-config').load(require('./config.json'));
 
 // or a JS file (don't forget module.exports)
-var config = require('simpler-config')._init(require('./config.js'));
+var config = require('simpler-config').load(require('./config.js'));
 
 // or an object
-var config = require('simpler-config')._init({someKey: 'Some Value'}));
+var config = require('simpler-config').load({someKey: 'Some Value'}));
 
 // or something far too fancy
-var config = require('simpler-config')._init({
+var config = require('simpler-config').load({
 	dev: require('./dev.json')
 	qa: require('./qa.json')
 }[process.env.name]);
