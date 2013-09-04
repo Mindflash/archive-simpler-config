@@ -1,5 +1,5 @@
 {
-	"author": "Max Nachlinger <max.nachlinger@gmail.com>",
+	"author": "Max Nachlinger <max@somewhere.com>",
 	"name": "simpler-config",
 	"description": "A really simple config library for nodejs",
 	"homepage": "https://github.com/maxnachlinger/simpler-config",
@@ -10,7 +10,7 @@
 	"keywords": [
 		"config"
 	],
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"bugs": {
 		"url": "https://github.com/maxnachlinger/simpler-config/issues"
 	},
@@ -31,5 +31,11 @@
 	},
 	"publishConfig": {
 		"registry": "https://registry.npmjs.com/"
-	}
+	},
+	"contributors": [
+		{
+			"name": "Matt Smith",
+			"url": "https://github.com/m5m1th"
+		}
+	]
 }

@@ -3,7 +3,7 @@ module.exports = {
 	complexKey: {
 		aKey: [
 			{
-				type: "test"
+				type: "testJS"
 			}
 		]
 	}
