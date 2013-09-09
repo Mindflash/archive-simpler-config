@@ -41,6 +41,7 @@ constantly tinker with the `require()` paths adding and/or removing `../`'s etc.
 this library enables you to setup your config once and then simply `require('simpler-config')` everywhere else. 
 
 ## Contributors
+* [Max Nachlinger] (https://github.com/maxnachlinger)
 * [Matt Smith] (https://github.com/m5m1th)
 
 ## License
