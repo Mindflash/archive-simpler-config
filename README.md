@@ -1,4 +1,4 @@
-#simpler-config
+##simpler-config
 
 A simple config module. You `load()` it once with a config object and simply `require('simpler-config')` everywhere
 else to get configuration.
@@ -40,11 +40,11 @@ for configuration. On larger projects, however, requiring a config file everywhe
 constantly tinker with the `require()` paths adding and/or removing `../`'s etc. Designed to avoid this annoyance, 
 this library enables you to setup your config once and then simply `require('simpler-config')` everywhere else. 
 
-## Contributors
+### Contributors
 * [Max Nachlinger] (https://github.com/maxnachlinger)
 * [Matt Smith] (https://github.com/m5m1th)
 
-## License
+### License
 
 [The MIT License](http://opensource.org/licenses/MIT)
 
