@@ -33,14 +33,6 @@ test('A fancy setup', function (t) {
 	t.end();
 });
 
-test('Nested files see config values after load', function (t) {
-	var config = require('..').load({name: 'testSomefile'});
-	var someFile = require('./dir0/dir1/someFile.js');
-
-	t.deepEqual(someFile.getConfig().name, 'testSomefile');
-	t.end();
-});
-
 test('load() works even when invoked out of order', function (t) {
 	var config = require('..');
 	var someFile = require('./dir0/dir1/someFile.js');
